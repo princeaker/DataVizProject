@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" />
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.js"></script>
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+
+<link rel="stylesheet" href="css/styles.css" type="text/css">
+  <title>JS Bin</title>
+</head>
+<body>
+  <script src="js/myscript.js"></script>
+  <div id="scatterplot">
+    <button id='b'>Black</button><button id='h'>Hispanic</button>
+    <button id='a'>Asian</button>
+        <div id="scatterSvg">
+    </div>
+  </div>
+  <div>
+      <h5>Visualization Discussion</h5>
+      In the Austin American Statemen released several reports describing
+      racial disparities in Texas. In order to confirm whether this was true I used
+      a test that measures disparities in police search rates called the benchmark test.
+      The goal of this visualization is to aide in determining whether the benchmark
+      test shows discrimination in the various counties of Texas. For this visualization
+      our clients would be the reporters at the Austin American Statesmen, the Texas
+      Police Department, as well as any concerned citizens of Texas. The dataset
+      of this project is a subset of the Stanford Open Policing Project dataset that is
+      based on Texas and contains the search rate of every race in each of the counties.
+       We would like to determine the discribution of police searches across racial groups
+       in the counties and try to view if there are any trends.<br/><br/>
+       Since the data we are comparing our quantitative we used points as our mark.
+        The channel is the size and the color of the points. The size represents
+        the number of minorities searched in the county and the color represents
+        which minority group we are looking at.
+
+  </div>
+</body>
+</html>

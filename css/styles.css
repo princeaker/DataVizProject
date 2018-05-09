@@ -1,0 +1,50 @@
+circle {stroke:orange;fill-opacity:0.5;}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+#scatterplot button {
+    background-color:#f2f2f2;
+    text-align:center;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.tooltip {
+	position: absolute;
+  display: none;
+  min-width: 60px;
+  height: auto;
+  background: none repeat scroll 0 0 #ffffff;
+  border: 1px solid #6F257F;
+  padding: 14px;
+  text-align: center;
+}
+
+.county {
+  stroke: black;
+  stroke-width: 1px;
+  fill: none;
+}
+
+.select {
+  position: absolute;
+  stroke: gray;
+  z-index: 3;
+  stroke-width: 5px;
+  fill: none;
+}
+
+.axis--map--caption {
+  fill: black;
+  font-family: Helvetica;
+  font-size: 12px;
+  text-anchor: start;
+  font-weight: bold;
+}
+
