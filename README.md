@@ -13,9 +13,9 @@ Since the data we are comparing our quantitative we used points as our mark. The
 
 Data set
   - Texas County json File
-  -
- 
-The scatter plot would show clearly how many counties are discraminate against white but it's dificult to tell where and what counties. Therefore, the highlighiting on map shows where the county is and Tooltip shows the name of county and the number of searched. Morevoer, the Map showing statistical answer of what counties are abnormal in terms of difference search rate for between minority and white drivers.   
+  - Stanford Open Police Project
 
-Outcoems:
+Description and Outcomes:
+
+The scatter plot would show clearly how many counties are discraminate against white but it's dificult to tell where and what counties. Therefore, the highlighiting on map shows where the county is and Tooltip shows the name of county and the number of searched. Morevoer, the Map showing statistical answer of what counties are abnormal in terms of difference search rate for between minority and white drivers.   
 
